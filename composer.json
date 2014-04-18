@@ -11,12 +11,12 @@
   
     "autoload": {
         "psr-4": {
-            "Doctrine\\REST\\":  "lib/Doctrine/REST",
+            "Doctrine\\REST\\":  "lib/Doctrine/REST"
         }
     },
 
     "require": {
         "php": ">=5.3.0",
         "doctrine/common": "*"
-    },
+    }
 }
