@@ -1,0 +1,22 @@
+{
+    "name": "creativespark/rest",
+    "description": "REST Server and Client library (Composer fork)",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Docrine",
+            "email": "unknown@gmail.com"
+        }
+    ],
+  
+    "autoload": {
+        "psr-4": {
+            "Doctrine\\REST\\":  "lib/Doctrine/REST",
+        }
+    },
+
+    "require": {
+        "php": ">=5.3.0",
+        "doctrine/common": "*"
+    },
+}
